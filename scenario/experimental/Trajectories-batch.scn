@@ -13,26 +13,26 @@
 00:00:00.00> SCEN test50
 00:00:00.00> PCALL "I:\Documents\Google Drive\Thesis 2018\BlueSky\scenario\experimental\Trajectories.scn" 03
 00:00:00.00> FF
-06:15:00.00> HOLD
+#06:15:00.00> HOLD
 
 # %0 = ensemble %1 = KLM01 %2 = KLM02 %3 = KLM03 %4 = filename
 
 #TEST ENSEMBLES
-00:00:00.00> SCEN test4
-00:00:00.00> PCALL "I:\Documents\Google Drive\Thesis 2018\BlueSky\scenario\experimental\Trajectories.scn" 04
-00:00:00.00> FF
-06:15:00.00> HOLD
-00:00:00.00> SCEN test5
-00:00:00.00> PCALL "I:\Documents\Google Drive\Thesis 2018\BlueSky\scenario\experimental\Trajectories.scn" 05
-00:00:00.00> FF
-06:15:00.00> HOLD
-00:00:00.00> SCEN test6
-00:00:00.00> PCALL "I:\Documents\Google Drive\Thesis 2018\BlueSky\scenario\experimental\Trajectories.scn" 06
-00:00:00.00> FF
-06:15:00.00> HOLD
-00:00:00.00> SCEN test7
-00:00:00.00> PCALL "I:\Documents\Google Drive\Thesis 2018\BlueSky\scenario\experimental\Trajectories.scn" 07
-00:00:00.00> FF
+#00:00:00.00> SCEN test4
+#00:00:00.00> PCALL "I:\Documents\Google Drive\Thesis 2018\BlueSky\scenario\experimental\Trajectories.scn" 04
+#00:00:00.00> FF
+#06:15:00.00> HOLD
+#00:00:00.00> SCEN test5
+#00:00:00.00> PCALL "I:\Documents\Google Drive\Thesis 2018\BlueSky\scenario\experimental\Trajectories.scn" 05
+#00:00:00.00> FF
+#06:15:00.00> HOLD
+#00:00:00.00> SCEN test6
+#00:00:00.00> PCALL "I:\Documents\Google Drive\Thesis 2018\BlueSky\scenario\experimental\Trajectories.scn" 06
+#00:00:00.00> FF
+#06:15:00.00> HOLD
+#00:00:00.00> SCEN test7
+#00:00:00.00> PCALL "I:\Documents\Google Drive\Thesis 2018\BlueSky\scenario\experimental\Trajectories.scn" 07
+#00:00:00.00> FF
 06:09:00.00> WRITER W25_dt_0.05
 06:10:00.00> QUIT
 

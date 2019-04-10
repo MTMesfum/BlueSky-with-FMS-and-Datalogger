@@ -1,6 +1,6 @@
 # Load wind data
 00:00:00.00> SWRAD VOR
-00:00:00.00> LOAD_WIND 0.,Tigge_01_09_2017.nc
+00:00:00.00> LOAD_WIND 01,Tigge_01_09_2017.nc
 00:00:00.00> DATE 1,9,2017
 
 # Load trajectories for a run
@@ -121,5 +121,5 @@
 00:00:00.00> SCEN Test_20
 00:00:00.00> PCALL "F:\Documents\Google Drive\Thesis 2018\BlueSky\scenario\experimental\Trajectories.scn" 20 
 00:00:00.00> FF
-06:04:00.00> WRITER 0._dt_0.05
+06:04:00.00> WRITER W01_dt_0.05
 06:05:00.00> QUIT
