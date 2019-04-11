@@ -10,7 +10,7 @@ import fileinput as fi
 
 # Scenario batch file
 global scenario_manager, settings_config, dt
-scenario_manager = "F:\Documents\Google Drive\Thesis 2018\BlueSky\scenario\experimental\\Trajectories-batch.scn"
+scenario_manager = "F:\Documents\Google Drive\Thesis 2018\BlueSky\scenario\Trajectories-batch.scn"
 settings_config = "F:\Documents\Google Drive\Thesis 2018\BlueSky\settings.cfg"
 dt = '0.50' # format '#.##'
 set_of_dt = ['0.05', '0.10', '0.20', '0.50', '1.00']
