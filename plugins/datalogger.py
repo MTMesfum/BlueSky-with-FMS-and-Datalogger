@@ -211,7 +211,7 @@ class DataLogger(TrafficArrays):
             print('Now i will save a standard file!!!')
             # r‘C:\Users\doron\Desktop\export_dataframe.csv‘
             traf.resultstosave.to_csv(
-                r'F:\Documents\Google Drive\Thesis 2018\BlueSky\output\WRITER Standard File.csv') # Desktop
+                r'\output\WRITER Standard File.csv') # Desktop
             # traf.resultstosave.to_csv(
             #     r'I:\Documents\Google Drive\Thesis 2018\BlueSky\output\WRITER Standard File.csv') # Laptop
             #, index=None,
@@ -221,7 +221,7 @@ class DataLogger(TrafficArrays):
             print('Now i will save a file in {0}!!!'.format(filename))
             #print(traf.resultstosave)
             traf.resultstosave.to_csv(
-                'F:\\Documents\\Google Drive\\Thesis 2018\\BlueSky\\output\\WRITER {0}.csv'.format(filename)) # Desktop
+                '\output\WRITER {0}.csv'.format(filename)) # Desktop
             # traf.resultstosave.to_csv(
             #     'I:\Documents\Google Drive\Thesis 2018\BlueSky\\output\\WRITER {0}.csv'.format(filename)) # Laptop
         print(traf.resultstosave)
@@ -299,6 +299,7 @@ class DataLogger(TrafficArrays):
                 del delcounter
         pass
 
+"""
         # def quit(self):
         #     #this doesnt work properly. it doesn't get called when the program quits
         #     #super(DataLogger, self).quit()
@@ -479,7 +480,8 @@ class DataLogger(TrafficArrays):
     #                    "\nAREA Shapename/OFF or\n Area lat,lon,lat,lon,[top,bottom]"
     #
     # def set_taxi(self, flag):
-    #     """ If you want to delete below 1500ft,
+    #     If you want to delete below 1500ft,
     #         make an box with the bottom at 1500ft and set it to Area.
-    #         This is because taxi does nothing. """
+    #         This is because taxi does nothing. 
     #     self.swtaxi = flag
+                                    """

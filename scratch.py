@@ -117,7 +117,7 @@ def CreateSCN(alpha, save_file):
     nm  = 1852.  # m       1 nautical mile
     ft  = .3048  # m        1 foot
 
-    folder = "C:\Documents\Git\\trunk\queries\\"
+    folder = "\queries\\"
     FileName = os.listdir(folder)
 
     # Tk().withdraw()
