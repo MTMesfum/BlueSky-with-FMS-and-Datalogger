@@ -91,6 +91,8 @@ def run_bluesky_laptop():
     os.system("call I:\Programs\Anaconda\Program\Scripts\\activate.bat && \
                     cd I:\Documents\Google Drive\Thesis 2018\BlueSky Git2 && python BlueSky.py")
 
+
+
 # assign the timestep and run the simulations X times
 for i in set_of_dt:
     dt = i
